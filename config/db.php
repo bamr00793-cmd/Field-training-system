@@ -1,9 +1,9 @@
 <?php
 
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "field_training_system";
+$host = "sql200.infinityfree.com";
+$user = "if0_42304717";
+$pass = "bRU3t09eD5tKvbx";
+$db   = "if0_42304717_field_training_system";
 
 $conn = new mysqli(
     $host,
