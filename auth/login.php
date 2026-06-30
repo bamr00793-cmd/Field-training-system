@@ -37,8 +37,8 @@ if(isset($_POST['login']))
                 exit();
             } 
             else if ($_SESSION['role'] == 2) {
-                // 2 -> مؤسسة تدريبية
-                header("Location: ../company/dashboard.php"); // أو المجلد المخصص للشركات عندك
+              // 2 -> مؤسسة تدريبية
+               header("Location: ../organization/dashboard.php");
                 exit();
             } 
             else if ($_SESSION['role'] == 3) {
